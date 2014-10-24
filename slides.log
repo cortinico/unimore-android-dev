@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  24 OCT 2014 19:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.12)  24 OCT 2014 20:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,13 +958,19 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \c@lstlisting=\count175
  (./slides.nav)
-<gulp.png, id=72, 130.4875pt x 133.49875pt>
+<ld_logo.png, id=72, 291.33844pt x 338.76563pt>
+File: ld_logo.png Graphic file (type png)
+ <use ld_logo.png>
+Package pdftex.def Info: ld_logo.png used on input line 63.
+(pdftex.def)             Requested size: 36.70172pt x 42.67912pt.
+
+<gulp.png, id=74, 130.4875pt x 133.49875pt>
 File: gulp.png Graphic file (type png)
  <use gulp.png>
 Package pdftex.def Info: gulp.png used on input line 63.
-(pdftex.def)             Requested size: 28.45274pt x 29.10907pt.
+(pdftex.def)             Requested size: 41.71703pt x 42.67912pt.
 
-<back.png, id=74, 1015.795pt x 903.375pt>
+<back.png, id=75, 1015.795pt x 903.375pt>
 File: back.png Graphic file (type png)
  <use back.png>
 Package pdftex.def Info: back.png used on input line 63.
@@ -976,62 +982,70 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./back.png> <./gulp.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ <./back.png> <./ld_logo.png> <./gulp.png>]
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 73.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [2
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 81.
+Package pdftex.def Info: back.png used on input line 88.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[2
+[3
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 81.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [3
-
-]
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 81.
+Package pdftex.def Info: back.png used on input line 88.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [4
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 81.
+Package pdftex.def Info: back.png used on input line 88.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [5
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 81.
+Package pdftex.def Info: back.png used on input line 88.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [6
+
+]
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 88.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[6
+[7
 
 ]
 \openout4 = `slides.vrb'.
 
- (./slides.vrb <android.png, id=341, 467.21028pt x 444.81676pt>
+ (./slides.vrb <android.png, id=386, 467.21028pt x 444.81676pt>
 File: android.png Graphic file (type png)
 
 <use android.png>
 Package pdftex.def Info: android.png used on input line 4.
 (pdftex.def)             Requested size: 44.82744pt x 42.67912pt.
- <chart.png, id=342, 517.935pt x 336.25626pt>
+ <chart.png, id=387, 517.935pt x 336.25626pt>
 File: chart.png Graphic file (type png)
  <use chart.png>
 Package pdftex.def Info: chart.png used on input line 12.
@@ -1039,9 +1053,9 @@ Package pdftex.def Info: chart.png used on input line 12.
 )
 File: back.png Graphic file (type png)
 <use back.png>
-Package pdftex.def Info: back.png used on input line 97.
+Package pdftex.def Info: back.png used on input line 104.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [7
+ [8
 
  <./android.png> <./chart.png>] (./slides.vrb
 File: android.png Graphic file (type png)
@@ -1056,24 +1070,7 @@ Package pdftex.def Info: chart.png used on input line 12.
 )
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 97.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [8
-
-] (./slides.vrb
-File: android.png Graphic file (type png)
-
-<use android.png>
-Package pdftex.def Info: android.png used on input line 4.
-(pdftex.def)             Requested size: 44.82744pt x 42.67912pt.
-File: chart.png Graphic file (type png)
- <use chart.png>
-Package pdftex.def Info: chart.png used on input line 12.
-(pdftex.def)             Requested size: 131.47499pt x 85.35826pt.
-)
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 97.
+Package pdftex.def Info: back.png used on input line 104.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [9
 
@@ -1090,67 +1087,84 @@ Package pdftex.def Info: chart.png used on input line 12.
 )
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 97.
+Package pdftex.def Info: back.png used on input line 104.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [10
 
+] (./slides.vrb
+File: android.png Graphic file (type png)
+
+<use android.png>
+Package pdftex.def Info: android.png used on input line 4.
+(pdftex.def)             Requested size: 44.82744pt x 42.67912pt.
+File: chart.png Graphic file (type png)
+ <use chart.png>
+Package pdftex.def Info: chart.png used on input line 12.
+(pdftex.def)             Requested size: 131.47499pt x 85.35826pt.
+)
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 104.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [11
+
 ]
-<java.png, id=507, 323.2075pt x 601.24625pt>
+<java.png, id=550, 323.2075pt x 601.24625pt>
 File: java.png Graphic file (type png)
  <use java.png>
-Package pdftex.def Info: java.png used on input line 112.
+Package pdftex.def Info: java.png used on input line 119.
 (pdftex.def)             Requested size: 61.17827pt x 113.81102pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 112.
+Package pdftex.def Info: back.png used on input line 119.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[11
+[12
 
  <./java.png>]
 File: java.png Graphic file (type png)
  <use java.png>
-Package pdftex.def Info: java.png used on input line 112.
+Package pdftex.def Info: java.png used on input line 119.
 (pdftex.def)             Requested size: 61.17827pt x 113.81102pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 112.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [12
-
-]
-File: java.png Graphic file (type png)
- <use java.png>
-Package pdftex.def Info: java.png used on input line 112.
-(pdftex.def)             Requested size: 61.17827pt x 113.81102pt.
-File: back.png Graphic file (type png)
-
-<use back.png>
-Package pdftex.def Info: back.png used on input line 112.
+Package pdftex.def Info: back.png used on input line 119.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [13
 
 ]
+File: java.png Graphic file (type png)
+ <use java.png>
+Package pdftex.def Info: java.png used on input line 119.
+(pdftex.def)             Requested size: 61.17827pt x 113.81102pt.
 File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 128.
+
+<use back.png>
+Package pdftex.def Info: back.png used on input line 119.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [14
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 128.
+Package pdftex.def Info: back.png used on input line 135.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [15
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 128.
+Package pdftex.def Info: back.png used on input line 135.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [16
+
+]
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 135.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[16
+[17
 
 ]
 \openout4 = `slides.vrb'.
@@ -1161,511 +1175,563 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 )
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 148.
+Package pdftex.def Info: back.png used on input line 155.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [17
+ [18
 
 ]
-<luna.png, id=803, 453.695pt x 303.1325pt>
+<luna.png, id=846, 453.695pt x 303.1325pt>
 File: luna.png Graphic file (type png)
  <use luna.png>
-Package pdftex.def Info: luna.png used on input line 160.
+Package pdftex.def Info: luna.png used on input line 167.
 (pdftex.def)             Requested size: 170.34288pt x 113.81102pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 160.
+Package pdftex.def Info: back.png used on input line 167.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[18
+[19
 
  <./luna.png>]
 File: luna.png Graphic file (type png)
  <use luna.png>
-Package pdftex.def Info: luna.png used on input line 160.
+Package pdftex.def Info: luna.png used on input line 167.
 (pdftex.def)             Requested size: 170.34288pt x 113.81102pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 160.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [19
-
-]
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 173.
+Package pdftex.def Info: back.png used on input line 167.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [20
 
 ]
 File: back.png Graphic file (type png)
-
-<use back.png>
-Package pdftex.def Info: back.png used on input line 173.
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 180.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [21
 
-] <sdk.png, id=969, 1133.23375pt x 823.075pt>
+]
+File: back.png Graphic file (type png)
+
+<use back.png>
+Package pdftex.def Info: back.png used on input line 180.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [22
+
+] <sdk.png, id=1013, 1133.23375pt x 823.075pt>
 File: sdk.png Graphic file (type png)
  <use sdk.png>
-Package pdftex.def Info: sdk.png used on input line 179.
+Package pdftex.def Info: sdk.png used on input line 186.
 (pdftex.def)             Requested size: 235.04651pt x 170.71652pt.
 File: back.png Graphic file (type png)
 
 <use back.png>
-Package pdftex.def Info: back.png used on input line 179.
+Package pdftex.def Info: back.png used on input line 186.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [22
+ [23
 
- <./sdk.png>] <crop.png, id=1012, 105.39375pt x 68.255pt>
+ <./sdk.png>] <crop.png, id=1055, 105.39375pt x 68.255pt>
 File: crop.png Graphic file (type png)
 
 <use crop.png>
-Package pdftex.def Info: crop.png used on input line 196.
+Package pdftex.def Info: crop.png used on input line 203.
 (pdftex.def)             Requested size: 43.93378pt x 28.45274pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 196.
+Package pdftex.def Info: back.png used on input line 203.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [23
+ [24
 
  <./crop.png>]
 File: crop.png Graphic file (type png)
  <use crop.png>
-Package pdftex.def Info: crop.png used on input line 196.
+Package pdftex.def Info: crop.png used on input line 203.
 (pdftex.def)             Requested size: 43.93378pt x 28.45274pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 196.
+Package pdftex.def Info: back.png used on input line 203.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[24
+[25
 
 ]
 File: crop.png Graphic file (type png)
  <use crop.png>
-Package pdftex.def Info: crop.png used on input line 196.
+Package pdftex.def Info: crop.png used on input line 203.
 (pdftex.def)             Requested size: 43.93378pt x 28.45274pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 196.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [25
-
-]
-File: crop.png Graphic file (type png)
- <use crop.png>
-Package pdftex.def Info: crop.png used on input line 196.
-(pdftex.def)             Requested size: 43.93378pt x 28.45274pt.
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 196.
+Package pdftex.def Info: back.png used on input line 203.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [26
 
 ]
-<adt.png, id=1178, 781.92125pt x 765.86125pt>
+File: crop.png Graphic file (type png)
+ <use crop.png>
+Package pdftex.def Info: crop.png used on input line 203.
+(pdftex.def)             Requested size: 43.93378pt x 28.45274pt.
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 203.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [27
+
+]
+<adt.png, id=1222, 781.92125pt x 765.86125pt>
 File: adt.png Graphic file (type png)
  <use adt.png>
-Package pdftex.def Info: adt.png used on input line 202.
+Package pdftex.def Info: adt.png used on input line 209.
 (pdftex.def)             Requested size: 174.29012pt x 170.71652pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 202.
+Package pdftex.def Info: back.png used on input line 209.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[27
+[28
 
  <./adt.png>]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 221.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [28
-
-]
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 221.
+Package pdftex.def Info: back.png used on input line 228.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [29
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 221.
+Package pdftex.def Info: back.png used on input line 228.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
-
-[30
+ [30
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 221.
+Package pdftex.def Info: back.png used on input line 228.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [31
+
+[31
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 221.
+Package pdftex.def Info: back.png used on input line 228.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [32
 
 ]
-<manage.png, id=1425, 719.68875pt x 536.0025pt>
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 228.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [33
+
+]
+<manage.png, id=1468, 719.68875pt x 536.0025pt>
 File: manage.png Graphic file (type png)
  <use manage.png>
-Package pdftex.def Info: manage.png used on input line 227.
+Package pdftex.def Info: manage.png used on input line 234.
 (pdftex.def)             Requested size: 229.21793pt x 170.71652pt.
 File: back.png Graphic file (type png)
 
 <use back.png>
-Package pdftex.def Info: back.png used on input line 227.
+Package pdftex.def Info: back.png used on input line 234.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [33
+ [34
 
  <./manage.png>]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 236.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [34
-
-]
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 236.
+Package pdftex.def Info: back.png used on input line 245.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [35
 
 ]
 File: back.png Graphic file (type png)
-
-<use back.png>
-Package pdftex.def Info: back.png used on input line 249.
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 245.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [36
 
 ]
 File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 249.
+
+<use back.png>
+Package pdftex.def Info: back.png used on input line 258.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [37
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 249.
+Package pdftex.def Info: back.png used on input line 258.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [38
 
 ]
-<avd.png, id=1668, 955.57pt x 879.285pt>
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 258.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [39
+
+]
+<avd.png, id=1711, 955.57pt x 879.285pt>
 File: avd.png Graphic file (type png)
  <use avd.png>
-Package pdftex.def Info: avd.png used on input line 255.
+Package pdftex.def Info: avd.png used on input line 264.
 (pdftex.def)             Requested size: 185.52617pt x 170.71652pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 255.
+Package pdftex.def Info: back.png used on input line 264.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [39
+ [40
 
  <./avd.png>]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 269.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [40
-
-]
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 269.
+Package pdftex.def Info: back.png used on input line 277.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [41
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 269.
+Package pdftex.def Info: back.png used on input line 277.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [42
 
 ]
-<debug.png, id=1830, 722.7pt x 1284.8pt>
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 277.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [43
+
+]
+<debug.png, id=1875, 722.7pt x 1284.8pt>
 File: debug.png Graphic file (type png)
  <use debug.png>
-Package pdftex.def Info: debug.png used on input line 276.
+Package pdftex.def Info: debug.png used on input line 284.
 (pdftex.def)             Requested size: 96.02747pt x 170.71652pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 276.
+Package pdftex.def Info: back.png used on input line 284.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
 
-[43
+[44
 
- <./debug.png>] <versions.jpg, id=1872, 1606.0pt x 703.62875pt>
+ <./debug.png>] <versions.jpg, id=1915, 1606.0pt x 703.62875pt>
 File: versions.jpg Graphic file (type jpg)
 
 <use versions.jpg>
-Package pdftex.def Info: versions.jpg used on input line 296.
+Package pdftex.def Info: versions.jpg used on input line 304.
 (pdftex.def)             Requested size: 256.0748pt x 112.18564pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 296.
+Package pdftex.def Info: back.png used on input line 304.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [44
+ [45
 
  <./versions.jpg>]
 File: versions.jpg Graphic file (type jpg)
  <use versions.jpg>
-Package pdftex.def Info: versions.jpg used on input line 296.
+Package pdftex.def Info: versions.jpg used on input line 304.
 (pdftex.def)             Requested size: 256.0748pt x 112.18564pt.
 File: back.png Graphic file (type png)
 
 <use back.png>
-Package pdftex.def Info: back.png used on input line 296.
+Package pdftex.def Info: back.png used on input line 304.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [45
+ [46
 
-] <apilevel.png, id=1956, 706.64pt x 681.54625pt>
+] <apilevel.png, id=1999, 706.64pt x 681.54625pt>
 File: apilevel.png Graphic file (type png)
 
 <use apilevel.png>
-Package pdftex.def Info: apilevel.png used on input line 314.
+Package pdftex.def Info: apilevel.png used on input line 322.
 (pdftex.def)             Requested size: 162.25421pt x 156.49014pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 314.
+Package pdftex.def Info: back.png used on input line 322.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [46
+ [47
 
  <./apilevel.png>]
 File: apilevel.png Graphic file (type png)
  <use apilevel.png>
-Package pdftex.def Info: apilevel.png used on input line 314.
+Package pdftex.def Info: apilevel.png used on input line 322.
 (pdftex.def)             Requested size: 162.25421pt x 156.49014pt.
 File: back.png Graphic file (type png)
 
 <use back.png>
-Package pdftex.def Info: back.png used on input line 314.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [47
-
-] <dashboard.png, id=2036, 792.9625pt x 277.035pt>
-File: dashboard.png Graphic file (type png)
-
-<use dashboard.png>
-Package pdftex.def Info: dashboard.png used on input line 321.
-(pdftex.def)             Requested size: 256.0748pt x 89.46463pt.
-File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 321.
+Package pdftex.def Info: back.png used on input line 322.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [48
 
+] <dashboard.png, id=2080, 792.9625pt x 277.035pt>
+File: dashboard.png Graphic file (type png)
+
+<use dashboard.png>
+Package pdftex.def Info: dashboard.png used on input line 329.
+(pdftex.def)             Requested size: 256.0748pt x 89.46463pt.
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 329.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [49
+
  <./dashboard.png>]
-<devices.png, id=2077, 641.39626pt x 427.5975pt>
+<devices.png, id=2121, 641.39626pt x 427.5975pt>
 File: devices.png Graphic file (type png)
  <use devices.png>
-Package pdftex.def Info: devices.png used on input line 344.
+Package pdftex.def Info: devices.png used on input line 352.
 (pdftex.def)             Requested size: 128.0323pt x 85.35826pt.
 File: back.png Graphic file (type png)
 
 <use back.png>
-Package pdftex.def Info: back.png used on input line 344.
+Package pdftex.def Info: back.png used on input line 352.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [49
+ [50
 
  <./devices.png>]
 File: devices.png Graphic file (type png)
  <use devices.png>
-Package pdftex.def Info: devices.png used on input line 344.
+Package pdftex.def Info: devices.png used on input line 352.
 (pdftex.def)             Requested size: 128.0323pt x 85.35826pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 344.
-(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [50
-
-]
-File: back.png Graphic file (type png)
-
-<use back.png>
-Package pdftex.def Info: back.png used on input line 363.
+Package pdftex.def Info: back.png used on input line 352.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [51
 
 ]
 File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 363.
+
+<use back.png>
+Package pdftex.def Info: back.png used on input line 371.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [52
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 363.
+Package pdftex.def Info: back.png used on input line 371.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [53
 
 ]
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 379.
-
 File: back.png Graphic file (type png)
-<use back.png>
-Package pdftex.def Info: back.png used on input line 379.
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 371.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [54
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 389.
+
 File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 379.
+<use back.png>
+Package pdftex.def Info: back.png used on input line 389.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [55
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 379.
+Package pdftex.def Info: back.png used on input line 389.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [56
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 379.
+Package pdftex.def Info: back.png used on input line 389.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
-
-[57
+ [57
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 379.
+Package pdftex.def Info: back.png used on input line 389.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [58
+
+[58
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+Package pdftex.def Info: back.png used on input line 389.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [59
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+Package pdftex.def Info: back.png used on input line 389.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [60
 
 ]
+\openout4 = `slides.vrb'.
+
+ (./slides.vrb
+<palette.png, id=2566, 762.85pt x 496.85625pt>
+File: palette.png Graphic file (type png)
+ <use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
 
 <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [61
 
-]
+ <./palette.png>] (./slides.vrb
+File: palette.png Graphic file (type png)
+ <use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+
+<use back.png>
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [62
 
-]
+] (./slides.vrb
+File: palette.png Graphic file (type png)
+ <use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [63
 
 ]
+(./slides.vrb
+File: palette.png Graphic file (type png)
+ <use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [64
 
-[64
+] (./slides.vrb
+File: palette.png Graphic file (type png)
 
-]
+<use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [65
 
-]
+] (./slides.vrb
+File: palette.png Graphic file (type png)
+ <use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
- <use back.png>
-Package pdftex.def Info: back.png used on input line 403.
+
+<use back.png>
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [66
 
-]
-<material.png, id=2806, 1124.2pt x 626.34pt>
-File: material.png Graphic file (type png)
- <use material.png>
-Package pdftex.def Info: material.png used on input line 417.
-(pdftex.def)             Requested size: 256.0748pt x 142.66937pt.
+] (./slides.vrb
+File: palette.png Graphic file (type png)
+ <use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 417.
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [67
 
-[67
-
- <./material.png (PNG copy)>]
+]
+(./slides.vrb
+File: palette.png Graphic file (type png)
+ <use palette.png>
+Package pdftex.def Info: palette.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 111.18889pt.
+)
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 433.
+Package pdftex.def Info: back.png used on input line 423.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [68
 
 ]
+<material.png, id=2893, 1124.2pt x 626.34pt>
+File: material.png Graphic file (type png)
+ <use material.png>
+Package pdftex.def Info: material.png used on input line 437.
+(pdftex.def)             Requested size: 256.0748pt x 142.66937pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 433.
+Package pdftex.def Info: back.png used on input line 437.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [69
 
-]
+[69
+
+ <./material.png (PNG copy)>]
 File: back.png Graphic file (type png)
-
-<use back.png>
-Package pdftex.def Info: back.png used on input line 433.
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 453.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [70
 
 ]
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 433.
+Package pdftex.def Info: back.png used on input line 453.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
  [71
 
 ]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 456.
+File: back.png Graphic file (type png)
 
-<cc.png, id=3022, 88.33pt x 31.11626pt>
+<use back.png>
+Package pdftex.def Info: back.png used on input line 453.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [72
+
+]
+File: back.png Graphic file (type png)
+ <use back.png>
+Package pdftex.def Info: back.png used on input line 453.
+(pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
+ [73
+
+]
+<cc.png, id=3109, 88.33pt x 31.11626pt>
 File: cc.png Graphic file (type png)
  <use cc.png>
-Package pdftex.def Info: cc.png used on input line 456.
+Package pdftex.def Info: cc.png used on input line 483.
 (pdftex.def)             Requested size: 40.38564pt x 14.22636pt.
 File: back.png Graphic file (type png)
  <use back.png>
-Package pdftex.def Info: back.png used on input line 456.
+Package pdftex.def Info: back.png used on input line 483.
 (pdftex.def)             Requested size: 307.14331pt x 273.14662pt.
- [72
+ [74
 
  <./cc.png>]
 \tf@nav=\write6
@@ -1677,13 +1743,13 @@ Package pdftex.def Info: back.png used on input line 456.
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 485.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 485.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 485.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 485.
 Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: 090EAC178C6B083918679A0ADC08A950;821.
+(rerunfilecheck)             Checksum: C09100862B3E46608FFB74F309EA3D9A;821.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1692,28 +1758,30 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 485.
  ) 
 Here is how much of TeX's memory you used:
- 19023 strings out of 494976
- 337522 string characters out of 6180006
+ 19064 strings out of 494976
+ 338004 string characters out of 6180006
  464286 words of memory out of 5000000
- 21613 multiletter control sequences out of 15000+600000
- 15313 words of font info for 58 fonts, out of 8000000 for 9000
+ 21630 multiletter control sequences out of 15000+600000
+ 16807 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,15n,64p,915b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on slides.pdf (72 pages, 1339761 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msam10.pfb>
+Output written on slides.pdf (74 pages, 1751995 bytes).
 PDF statistics:
- 3128 PDF objects out of 3580 (max. 8388607)
- 2974 compressed objects within 30 object streams
- 159 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3224 PDF objects out of 3580 (max. 8388607)
+ 3061 compressed objects within 31 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
 

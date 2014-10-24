@@ -1,18 +1,32 @@
-\frametitle{XML}
+\frametitle{Design}
+Non tralasciate il design della vostra applicazione, pu\`o trasformare un'app \textbf{utile} in un'app \textbf{orrenda}!
 
-\begin{lstlisting}
-<?xml version="1.0" encoding="UTF-8"?>
-<utenti>
-    <utente>
-        <nome>Luca</nome>
-        <cognome>Cicci</cognome>
-        <indirizzo>Milano</indirizzo>
-    </utente>
-    <utente>
-        <nome>Max</nome>
-        <cognome>Rossi</cognome>
-        <indirizzo>Roma</indirizzo>
-    </utente>
-</utenti>
-\end{lstlisting}
+\pause
+\medskip
 
+
+\begin{columns}
+    \begin{column}{0.3\textwidth}
+Argomenti da curare:
+\pause
+\begin{enumerate}
+\item Icone
+\pause
+\item Loghi
+\pause
+\item Palette di colori
+\pause
+\item Bottoni
+\pause
+\item Animazioni
+\pause
+\item Font
+\end{enumerate}
+\end{column}
+
+\begin{column}{0.7\textwidth}
+\begin{center}
+\visible<2->{\includegraphics[width=6cm]{palette.png}}
+\end{center}
+\end{column}
+\end{columns}

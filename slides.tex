@@ -49,9 +49,9 @@ fontadjust=true,
 breaklines=true,breakatwhitespace=true,breakautoindent
 }
 
-\title{\textbf{Android App Developement: Creare la nostra prima app.}}
+\title{\textbf{Android App Developement: \\ Creare la nostra prima app.}}
 \author{Nicola Corti}
-\institute{GULP - Gruppo Utenti Linux Pisa \\ Linux Day 2012\\ \medskip  \includegraphics[width=1cm]{gulp.png}}
+\institute{GULP - Gruppo Utenti Linux Pisa \\ Linux Day 2012\\ \medskip  \includegraphics[height=1.5cm]{ld_logo.png} \hspace{1cm} \includegraphics[height=1.5cm]{gulp.png}}
 \logo{gulp.png}
 \date{25 ottobre 2014}
 
@@ -63,19 +63,26 @@ breaklines=true,breakatwhitespace=true,breakautoindent
 \end{frame}
 
 \section{Prerequisiti}
+
+\begin{frame}
+\begin{center}
+\begin{Huge}
+{\color{android} Prerequisiti}
+\end{Huge}
+\end{center}
+\end{frame}
+
 \begin{frame}{Prerequisiti}
-
-
 \textbf{Cosa bisogna sapere per iniziare a programmare per Android?}
 \pause
 \begin{itemize}
-	\item Piccola esperienza con l'ambiente Android
+	\item Piccola esperienza con l'ambiente \textbf{Android}
 	\pause
-	\item Esperienza di programmazione con Java
+	\item Esperienza di programmazione con \textbf{Java}
 	\pause
-	\item Conoscenza di XML
+	\item Conoscenza di \textbf{XML}
 	\pause
-	\item Conoscenza dell'IDE Eclipse
+	\item Conoscenza dell'IDE \textbf{Eclipse}
 \end{itemize}
 
 \end{frame}
@@ -230,8 +237,10 @@ Scegliamo una versione di Android, verranno scaricati gli \textbf{strumenti per 
 Per chi utilizza Ubuntu a 64 bit \`e necessario scaricare le librerie a 32 bit.
 \pause
 \medskip
-\begin{block}{ia32-libs}
-Dare in un terminale il comando: \texttt{sudo apt-get install ia32-libs}
+\begin{block}{Shell}
+\texttt{sudo dpkg --add-architecture i386}\\
+\texttt{sudo apt-get update}\\
+\texttt{sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386}
 \end{block}
 \end{frame}
 
@@ -265,7 +274,6 @@ Dare in un terminale il comando: \texttt{sudo apt-get install ia32-libs}
 	\begin{block}{Modalit\`a Debug}
 	Si deve collegare il dispositivo e attivare la \textbf{Modalit\`a Debug} (dentro il men\`u Opzioni per lo Sviluppatore).
 	\end{block}	
-
 \end{frame}
 
 
@@ -332,7 +340,7 @@ Dobbiamo decidere per quale \textbf{API Level} stiamo sviluppando e fino a quale
 
 \medskip
 
-Android \`e presente su dispositivi che hanno monitor molto differenti fra di loro, partiamo dai 3 pollici per arrivare fino ai dodici.
+Android \`e presente su dispositivi che hanno monitor molto differenti fra di loro, partiamo dai \textbf{3 pollici} per arrivare fino ai \textbf{12 pollici}.
 
 \medskip
 \pause
@@ -368,22 +376,27 @@ Il manifest verr\`a utilizzato dal Play Store per decidere o meno se un'app \`e 
 \begin{frame}{Consigli}
 \pause
 \begin{enumerate}
-\item Prima di iniziare assicuratevi di essere in linea con i prerequisiti
+\item Prima di iniziare assicuratevi di essere in linea con i prerequisiti,
 \pause
-\item Iniziate con la lettura di un \textbf{libro} che tratti la programmazione Android in modo completo
+\item Iniziate con la lettura di un \textbf{libro} che tratti la programmazione Android in modo completo,
 \pause
 \item \textbf{\emph{Google is your friend...}}
 \pause
-\item Provate la vostra App su devices ed in condizioni differenti (orientamento, rete, etc...)
+\item Cercate \textit{snippets} di codice online, copiare il codice non \`e un reato, ma \textbf{prestate attenzione} a cosa includete nella vostra app,
+\pause
+\item Provate la vostra App su \textbf{devices diversi} ed in \textbf{condizioni differenti} (orientamento, rete, etc...).
 \end{enumerate}
 \end{frame}
 
-\begin{frame}{Design}
+\begin{frame}[fragile]{Design}
 Non tralasciate il design della vostra applicazione, pu\`o trasformare un'app \textbf{utile} in un'app \textbf{orrenda}!
 
 \pause
 \medskip
 
+
+\begin{columns}
+    \begin{column}{0.3\textwidth}
 Argomenti da curare:
 \pause
 \begin{enumerate}
@@ -399,7 +412,14 @@ Argomenti da curare:
 \pause
 \item Font
 \end{enumerate}
+\end{column}
 
+\begin{column}{0.7\textwidth}
+\begin{center}
+\visible<2->{\includegraphics[width=6cm]{palette.png}}
+\end{center}
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}{Material Design}
@@ -435,24 +455,31 @@ Argomenti da curare:
 
 
 
-\begin{frame}{Fine}
+\begin{frame}{}
 
 \begin{center}
-		Slides realizzate da:\\
-		\medskip
-		\textbf{Nicola Corti - corti.nico [at] gmail [dot] com}\\
-		\textbf{\url{http://www.ncorti.it}}\\
-		\medskip
-\end{center}
-		\medskip
-		Slides realizzate con \LaTeX\ Beamer.\\
-		\medskip
-		La seguente presentazione \`e rilasciata sotto licenza\\
-		\textbf{Creative Commons - Attributions, Non Commercial, Share-alike}.
-		\begin{center}
-			\includegraphics[height=0.5cm]{cc.png}
-		\end{center}
+\begin{Huge}
+{\color{android} \textbf{Domande...?}}
+\end{Huge}
 
+\vspace{1.5cm}
+\begin{small}
+Slides realizzate da:\\
+\textbf{Nicola Corti - corti.nico [at] gmail [dot] com}\\
+\url{http://www.ncorti.it/}
+
+\bigskip
+
+Slides realizzate con \LaTeX\ Beamer.\\
+La seguente presentazione \`e rilasciata sotto licenza\\
+\begin{footnotesize}	\textbf{Creative Commons - Attributions, Non Commercial, Share-alike}.
+\end{footnotesize}
+\\
+\medskip
+\includegraphics[height=0.5cm]{cc.png}
+
+\end{small}
+\end{center}
 \end{frame}
 
 \end{document}
