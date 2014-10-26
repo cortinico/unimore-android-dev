@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Premimi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Premimi - La mia prima app</string>
+    <string name="premimi_button">Premimi :D</string>
+    <string name="insertname">Inserisci il tuo nome</string>
+
+</resources>
