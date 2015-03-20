@@ -51,9 +51,9 @@ breaklines=true,breakatwhitespace=true,breakautoindent
 
 \title{\textbf{Android App Developement: \\ Creare la nostra prima app.}}
 \author{Nicola Corti}
-\institute{GULP - Gruppo Utenti Linux Pisa \\ Linux Day 2012\\ \medskip  \includegraphics[height=1.5cm]{ld_logo.png} \hspace{1cm} \includegraphics[height=1.5cm]{gulp.png}}
+\institute{GULP - Gruppo Utenti Linux Pisa \\ Universit\`a degli studi di Modena e Reggio Emilia\\ \medskip  \includegraphics[height=1.5cm]{unimore_logo.png} \hspace{1cm} \includegraphics[height=1.5cm]{gulp.png}}
 \logo{gulp.png}
-\date{25 ottobre 2014}
+\date{19 marzo 2015}
 
  
 \begin{document}
@@ -62,17 +62,25 @@ breaklines=true,breakatwhitespace=true,breakautoindent
 	\titlepage
 \end{frame}
 
-\section{Prerequisiti}
 
 \begin{frame}
 \begin{center}
-\begin{Huge}
-{\color{android} Prerequisiti}
-\end{Huge}
+\includegraphics[width=9cm]{waterfall_full.pdf}
 \end{center}
 \end{frame}
 
-\begin{frame}{Prerequisiti}
+
+\section{Requirements}
+
+\begin{frame}
+\begin{center}
+\includegraphics[width=9cm]{waterfall_1.pdf}
+\end{center}
+\end{frame}
+
+
+\subsection{Personal Requirements}
+\begin{frame}{Personal Requirements}
 \textbf{Cosa bisogna sapere per iniziare a programmare per Android?}
 \pause
 \begin{itemize}
@@ -82,28 +90,21 @@ breaklines=true,breakatwhitespace=true,breakautoindent
 	\pause
 	\item Conoscenza di \textbf{XML}
 	\pause
-	\item Conoscenza dell'IDE \textbf{Eclipse}
+	\item Conoscenza di base di un ambiente di sviluppo (\textbf{IDE})
 \end{itemize}
-
 \end{frame}
 
-\subsection{Android}
 \begin{frame}[fragile]{Android}
 
 \begin{center}
-\includegraphics[height=1.5cm]{android.png}
+\includegraphics[height=3cm]{android_logo.pdf}
 \end{center}
 \pause
-\textbf{Android} \`e un sistema operativo open per Smartphone e Tablet attualmente sviluppato da Google.\\
+\textbf{Android} \`e un sistema operativo open per Smartphone, Tablet, PC, Wearable, Automotive, etc... attualmente sviluppato da Google.\\
 \pause
 Android \`e basato sul kernel \textbf{Linux}.
-\pause
-\begin{center}
-\visible<4>{\includegraphics[height=3cm]{chart.png}}
-\end{center}
 \end{frame}
 
-\subsection{Java}
 \begin{frame}{Java}
 
 Java \`e un linguaggio di programmazione \textbf{orientato ad oggetti} ad oggi molto famoso ed utilizzato in svariate piattaforme.
@@ -118,7 +119,6 @@ Si pu\`o consultare qualche guida online: \url{ http://www.html.it/guide/guida-j
 
 \end{frame}
 
-\subsection{XML}
 \begin{frame}{XML}
 
 XML \`e un linguaggio di \textbf{markup}, largamente diffuso nel web per permettere lo scambio di informazioni.\\
@@ -154,40 +154,200 @@ Le guide online sono le pi\`u disparate: \url{http://www.html.it/guide/guida-xml
 
 \end{frame}
 
-\subsection{Eclipse}
-\begin{frame}{Eclipse}
+\begin{frame}{IDE}
 
-Eclipse \`e un \textbf{ambiente di sviluppo integrato}, che ci permetter\`a di gestire facilmente i nostri progetti Android.
+Un \textbf{ambiente di sviluppo integrato (IDE)}, che ci permette di gestire facilmente i nostri progetti tramite tool quali debugger, profiler, build system, etc\ldots
 
 \pause
 \begin{center}
-\visible<2>{\includegraphics[height=4cm]{luna.png}}
+\visible<2-3>{\includegraphics[height=1.5cm]{eclipse_logo.png}}
+\bigskip
+\visible<3>{\includegraphics[height=1.5cm]{intellij_logo.png}}
 \end{center}
 
 \end{frame}
 
+\subsection{Device Requirements}
 
-\section{Scarichiamo l'SDK}
+\begin{frame}{Android Versions}
+L'ecosistema di Android \`e molto eterogeneo. La prima versione di Android \`e uscita nel 2008 e da allora sono uscite molti aggiornamenti del sistema.
 
-\begin{frame}{Scarichiamo l'SDK}
+\medskip
+
+\begin{center}
+
+\visible<2>{\includegraphics[width=9cm]{versions.jpg}}
+
+\end{center}
+
+\pause
+\medskip
+
+Quando sviluppiamo dobbiamo tenere in considerazione il fattore \textbf{Versione}.
+\end{frame}
+
+\begin{frame}{API Levels}
+\begin{center}
+\includegraphics[height=6cm]{apilevel.png}
+\end{center}
+\pause
+Dobbiamo decidere per quale \textbf{API Level} stiamo sviluppando e fino a quale \textbf{API Level} siamo disposti ad essere retrocompatibili.
+
+\end{frame}
+
+\begin{frame}{API Levels}
+
+\begin{center}
+\includegraphics[width=9cm]{dashboard.png}
+\end{center}
+\end{frame}
+
+
+\subsection{Form factor}
+\begin{frame}{Form factor}
+
+\begin{center}
+\includegraphics[height=4cm]{devices.png}
+\end{center}
+
+\pause
+
+Android \`e presente su dispositivi che hanno monitor molto differenti fra di loro, dai \textbf{3 pollici} fino ai \textbf{12}.
+
+\pause
+
+\begin{block}{}
+\`E essenziale che l'esperienza utente sia gradevole su ogni display dove deve girare l'app; assicurandosi che gli oggetti a schermo si dispongano in modo armonioso. 
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Form factor}
+
+\begin{center}
+
+\includegraphics[height=3cm]{multiscreen.png}
+
+\end{center}
+
+\medskip
+\pause
+
+\begin{block}
+
+Questo discorso assume molta pi\`u importanza se consideriamo altri device quali \textbf{Wearable}, \textbf{TV} ed \textbf{Auto}
+
+\end{block}
+\end{frame}
+
+\section{Design}
+
+\begin{frame}
+\begin{center}
+\includegraphics[width=9cm]{waterfall_2.pdf}
+\end{center}
+\end{frame}
+
+\subsection{Conceptual Design}
+\begin{frame}{Writing good code...}
+\begin{center}
+\includegraphics[height=7.5cm]{xkcd.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Designing your app}
+\begin{center}
+\includegraphics[width=9cm]{drawing.jpg}
+\end{center}
+\end{frame}
+
+\subsection{Graphical Design}
+\begin{frame}[fragile]{Graphical Design}
+Non tralasciate il design della vostra applicazione, pu\`o trasformare un'app \textbf{utile} in un'app \textbf{orrenda}!
+
+\pause
+\medskip
+\begin{columns}
+    \begin{column}{0.3\textwidth}
+Argomenti da curare:
+\pause
+\begin{enumerate}
+\item Icone
+\pause
+\item Loghi
+\pause
+\item Palette di colori
+\pause
+\item Bottoni
+\pause
+\item Animazioni
+\pause
+\item Font
+\end{enumerate}
+\end{column}
+
+\begin{column}{0.7\textwidth}
+\begin{center}
+\visible<2->{\includegraphics[width=6cm]{palette.png}}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Material Design}
+\begin{center}
+\includegraphics[width=9cm]{material.png}
+\bigskip
+ \\
+\url{http://www.google.com/design/spec}
+\end{center}
+\end{frame}
+
+
+\section{Implementation}
+
+\begin{frame}
+\begin{center}
+\includegraphics[width=9cm]{waterfall_3.pdf}
+\end{center}
+\end{frame}
+
+\subsection{The SDK}
+
+\begin{frame}{Download the SDK}
 
 Per iniziare a programmare abbiamo bisogno di scaricare l'SDK (\emph{Software Development Kit}) di Android.
 \pause
 \medskip
 \begin{block}{Dove scaricare?}
-Per scaricare l'SDK andiamo sul sito \url{http://developer.android.com/sdk/index.html} e selezioniamo la versione per il nostro sistema.
+Per scaricare l'SDK andiamo sul sito \url{http://developer.android.com/sdk/index.html} e scarichiamo l'SDK
 \end{block}
 \end{frame}
 
 \begin{frame}{Scarichiamo l'SDK}
 \begin{center}
-\includegraphics[height=6cm]{sdk.png}
+\includegraphics[width=9cm]{studio.png}
 \end{center}
 \end{frame}
 
-\subsection{Scarichiamo il plugin ADT}
-\begin{frame}{Scarichiamo il plugin ADT}
+\begin{frame}{Download Android Studio}
 
+\begin{block}{Android Studio}
+\textbf{Android Studio} \`e un IDE basato su \textbf{IntellijIDEA}, che offre tutti gli strumenti necessari per lo sviluppo su android
+\end{block}
+\medskip
+\pause
+
+Consigliato se:
+\begin{itemize}
+\item Si \`e all'inizio
+\item Non si vuole perdere tempo a configurare l'ambiente di sviluppo
+\item Si conosce IntellijIDEA/Non si conosce Eclipse
+\item Si vuole sviluppare per wearable/tv/etc\ldots
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Download ADT plugin}
 Scarichiamo il plugin \textbf{ADT} (\emph{Android Development Tool}) per Eclipse.\\
 \pause
 \medskip
@@ -208,8 +368,7 @@ Il plugin si puo' scaricare dal repository: \url{http://dl-ssl.google.com/androi
 \end{center}
 \end{frame}
 
-\section{Configurare l'SDK}
-
+\subsection{Downloading packages}
 \begin{frame}{Configurare l'SDK}
 Procediamo a configurare l'SDK per iniziare a programmare
 \pause
@@ -242,6 +401,14 @@ Per chi utilizza Ubuntu a 64 bit \`e necessario scaricare le librerie a 32 bit.
 \texttt{sudo apt-get update}\\
 \texttt{sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386}
 \end{block}
+\end{frame}
+
+\section{Verification}
+
+\begin{frame}
+\begin{center}
+\includegraphics[width=9cm]{waterfall_4.pdf}
+\end{center}
 \end{frame}
 
 \subsection{Android Virtual Device}
@@ -283,75 +450,15 @@ Per chi utilizza Ubuntu a 64 bit \`e necessario scaricare le librerie a 32 bit.
 \end{center}
 \end{frame}
 
-\section{Versioni di Android}
+\section{Maintenance}
 
-\begin{frame}{Versioni di Android}
-L'ecosistema di Android \`e molto eterogeneo. La prima versione di Android \`e uscita nel 2008 e da allora sono uscite molti aggiornamenti del sistema.
-
-\medskip
-
+\begin{frame}
 \begin{center}
-
-\includegraphics[width=9cm]{versions.jpg}
-
-\end{center}
-
-\pause
-\medskip
-
-Quando sviluppiamo dobbiamo tenere in considerazione il fattore \textbf{Versione}.
-
-\end{frame}
-
-%\subsection{API Levels}
-\begin{frame}{API Levels}
-
-\medskip
-
-\begin{center}
-
-\includegraphics[height=5.5cm]{apilevel.png}
-
-\end{center}
-
-\pause
-\medskip
-
-Dobbiamo decidere per quale \textbf{API Level} stiamo sviluppando e fino a quale \textbf{API Level} siamo disposti ad essere retrocompatibili.
-
-\end{frame}
-
-\begin{frame}{API Levels}
-
-\begin{center}
-\includegraphics[width=9cm]{dashboard.png}
+\includegraphics[width=9cm]{waterfall_5.pdf}
 \end{center}
 \end{frame}
 
-
-\subsection{Dimensioni differenti}
-\begin{frame}{Dimensioni differenti}
-
-\begin{center}
-
-\includegraphics[height=3cm]{devices.png}
-
-\end{center}
-
-\medskip
-
-Android \`e presente su dispositivi che hanno monitor molto differenti fra di loro, partiamo dai \textbf{3 pollici} per arrivare fino ai \textbf{12 pollici}.
-
-\medskip
-\pause
-
-\begin{block}{}
-\`E essenziale che l'esperienza utente sia gradevole su ogni display dove deve girare l'app; assicurandosi che gli oggetti a schermo si dispongano in modo armonioso. 
-\end{block}
-
-\end{frame}
-
-\subsection{AndroidManifest.xml}
+\subsection{Deploy}
 \begin{frame}{AndroidManifest.xml}
 
 La definizione globale della nostra app sta nel file \texttt{AndroidManifest.xml}.
@@ -367,13 +474,37 @@ All'interno del manifest includeremo \textbf{nome}, \textbf{versione} e \textbf{
 \begin{block}{}
 Il manifest verr\`a utilizzato dal Play Store per decidere o meno se un'app \`e \textbf{compatibile con il proprio device}.
 \end{block}
+\end{frame}
 
+\begin{frame}{Play Store}
+Quando la nostra app \`e pronta possiamo esportarla in formato \textbf{apk}, \textbf{firmarla} con la nostra chiave e caricarla sul \textbf{Google Play Store}.
+
+\begin{center}
+\includegraphics[width=9cm]{playstore.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Play Store}
+
+Il Play Store ti permette di distribuire la tua app a \textbf{milioni di dispositivi}. I dispositivi che raggiungerai dipenderanno dai vincoli che hai imposto nel file \texttt{AndroidManifest.xml}.
+
+\medskip
+\pause
+
+\begin{block}{}
+Per poter pubblicare sul Play Store dovrai pagare una quota di \textbf{25\$} una tantum.
+\end{block}
+
+\medskip
+\pause
+
+Il Play Store ti permette anche di monitorare gli \textbf{errori} e gli \textbf{arresti anomali} della tua app, in modo che tu possa rilasciare nuove versioni della tua app che correggono questi errori.
 \end{frame}
 
 
-\section{Suggerimenti e consigli}
+\section{Hints}
 
-\begin{frame}{Consigli}
+\begin{frame}{Hints}
 \pause
 \begin{enumerate}
 \item Prima di iniziare assicuratevi di essere in linea con i prerequisiti,
@@ -385,60 +516,12 @@ Il manifest verr\`a utilizzato dal Play Store per decidere o meno se un'app \`e 
 \item Cercate \textit{snippets} di codice online, copiare il codice non \`e un reato, ma \textbf{prestate attenzione} a cosa includete nella vostra app,
 \pause
 \item Provate la vostra App su \textbf{devices diversi} ed in \textbf{condizioni differenti} (orientamento, rete, etc...).
+\pause
+\item Non dimenticate la documentazione (Commenti inline, Javadoc, etc\ldots).
 \end{enumerate}
 \end{frame}
 
-\begin{frame}[fragile]{Design}
-Non tralasciate il design della vostra applicazione, pu\`o trasformare un'app \textbf{utile} in un'app \textbf{orrenda}!
-
-\pause
-\medskip
-
-
-\begin{columns}
-    \begin{column}{0.3\textwidth}
-Argomenti da curare:
-\pause
-\begin{enumerate}
-\item Icone
-\pause
-\item Loghi
-\pause
-\item Palette di colori
-\pause
-\item Bottoni
-\pause
-\item Animazioni
-\pause
-\item Font
-\end{enumerate}
-\end{column}
-
-\begin{column}{0.7\textwidth}
-\begin{center}
-\visible<2->{\includegraphics[width=6cm]{palette.png}}
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Material Design}
-
-\begin{center}
-
-\includegraphics[width=9cm]{material.png}
-
-\bigskip
-
-\url{http://www.google.com/design/spec}
-
-\end{center}
-
-\end{frame}
-
-\section{Conclusione}
-
-\begin{frame}{Guide Online}
+\begin{frame}{Online Material}
 
 \textbf{Online} si trova molto materiale su Android:
 \pause
@@ -451,6 +534,23 @@ Argomenti da curare:
 \item \url{http://www.html.it/guide/guida-android/}
 \end{itemize}
 \end{frame}
+
+\begin{frame}[fragile]{Books}
+
+\begin{columns}
+    \begin{column}{0.5\textwidth}
+    \begin{center}
+    \includegraphics[width=4cm]{carli.jpg}
+    \end{center}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+	\begin{center}
+    \includegraphics[width=4cm]{meier.jpg}
+    \end{center}
+	\end{column}
+\end{columns}
+\end{frame}
+
 
 
 
@@ -479,6 +579,23 @@ La seguente presentazione \`e rilasciata sotto licenza\\
 \includegraphics[height=0.5cm]{cc.png}
 
 \end{small}
+\end{center}
+\end{frame}
+
+\begin{frame}{Gesture Paint}
+\begin{center}
+\only<1>{\includegraphics[width=9cm]{screenshots/gp1.png}}
+\only<2>{\includegraphics[width=9cm]{screenshots/gp2.png}}
+\only<3>{\includegraphics[height=7.5cm]{screenshots/gp3.png}}
+\only<4>{\includegraphics[height=7.5cm]{screenshots/gp4.png}}
+\only<5>{\includegraphics[width=9cm]{screenshots/gp5.png}}
+\only<6>{\includegraphics[height=7.5cm]{screenshots/gp6.png}}
+\end{center}
+\end{frame}
+
+\begin{frame}{Route Nazionale App Scanner}
+\begin{center}
+\only<1>{\includegraphics[height=7.5cm]{screenshots/as00.png}}\only<2>{\includegraphics[height=7.5cm]{screenshots/as01.png}}\only<3>{\includegraphics[height=7.5cm]{screenshots/as02.png}}\only<4>{\includegraphics[height=7.5cm]{screenshots/as03.png}}\only<5>{\includegraphics[height=7.5cm]{screenshots/as04.png}}\only<6>{\includegraphics[height=7.5cm]{screenshots/as05.png}}\only<7>{\includegraphics[height=7.5cm]{screenshots/as06.png}}\only<8>{\includegraphics[height=7.5cm]{screenshots/as07.png}}\only<9>{\includegraphics[height=7.5cm]{screenshots/as08.png}}\only<10>{\includegraphics[height=7.5cm]{screenshots/as09.png}}\only<11>{\includegraphics[height=7.5cm]{screenshots/as10.png}}\only<12>{\includegraphics[height=7.5cm]{screenshots/as11.png}}\only<13>{\includegraphics[height=7.5cm]{screenshots/as12.png}}\only<14>{\includegraphics[height=7.5cm]{screenshots/as13.png}}\only<15>{\includegraphics[height=7.5cm]{screenshots/as14.png}}\only<16>{\includegraphics[height=7.5cm]{screenshots/as15.png}}
 \end{center}
 \end{frame}
 

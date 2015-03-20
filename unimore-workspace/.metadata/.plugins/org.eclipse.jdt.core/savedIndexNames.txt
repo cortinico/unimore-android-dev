@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+/home/nicola/unimore-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1027727555.index
+2313864446.index
+3910521362.index
+2776355309.index

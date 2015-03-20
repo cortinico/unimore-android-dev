@@ -1,8 +1,0 @@
-INDEX VERSION 1.127+/home/nicola/linuxday/.metadata/.plugins/org.eclipse.jdt.core
-3451274827.index
-3500584672.index
-1187436852.index
-1148454161.index
-1118747386.index
-650337545.index
-3927879410.index
