@@ -1,15 +1,14 @@
-gulp-android-dev
+Android App Development - Università degli studi di Modena e Reggio Emilia
 ==========
 
-Slides del seminario del Linux Day 2014 Pisa sullo sviluppo di App per Android.
+Slides del seminario tenuto ad Unimore sullo sviluppo applicazioni Android.
 
 Le slides sono state realizzate con LaTeX Beamer e sono rilasciate sotto licenza [CC By-Nc-Sa 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-[Per scaricare le slides premi qui](https://github.com/cortinico/gulp-android-dev/blob/master/Slides/slides.pdf?raw=true) 
-![Front](http://i60.tinypic.com/2bcrar.jpg)
+[Per scaricare le slides premi qui](https://github.com/cortinico/unimore-android-dev/blob/master/Slides/slides.pdf?raw=true) 
+![Front](http://i57.tinypic.com/73ecgh.png)
 
 ### Link
-* [Linux Day Pisa 2014](http://www.linuxdaypisa.it/)
 
 * [G.U.L.P.](http://www.gulp.linux.it/)
 
