@@ -7,7 +7,9 @@ Le slides sono state realizzate con LaTeX Beamer e sono rilasciate sotto licenza
 
  * [Per scaricare le slides premi qui](https://github.com/cortinico/unimore-android-dev/blob/master/Slides/slides.pdf?raw=true) 
 
- * [Per scaricare il workspace con i progetti di esempio premi qui](https://github.com/cortinico/unimore-android-dev/blob/master/unimore-workspace.zip?raw=true) 
+ * [Per scaricare il workspace con i progetti di esempio premi qui](https://github.com/cortinico/unimore-android-dev/blob/master/unimore-workspace.zip?raw=true)
+ 
+ * [Per vedere il video del seminario premi qui](https://www.youtube.com/watch?v=s6iK4RWdZBQ) 
 ![Front](http://i61.tinypic.com/25f7qtj.jpg)
 
 ### Link
